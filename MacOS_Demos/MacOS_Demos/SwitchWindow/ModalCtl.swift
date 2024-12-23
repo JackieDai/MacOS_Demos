@@ -19,6 +19,10 @@ class ModalCtl: NSViewController {
         target.presentAsSheet(modalCtl)
     }
     
+    deinit {
+        print("delloc -- ModalCtl")
+    }
+    
     override func loadView() {
         /**
          如果调用了 super.loadView()

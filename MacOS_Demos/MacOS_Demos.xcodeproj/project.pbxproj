@@ -51,6 +51,7 @@
 		2C21BBE52D190B9300126E0C /* ConstraintDirectionalInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21BBC12D190B9300126E0C /* ConstraintDirectionalInsets.swift */; };
 		2C21BBE62D190B9300126E0C /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21BBC22D190B9300126E0C /* ConstraintLayoutSupportDSL.swift */; };
 		2C21BBE72D190B9300126E0C /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21BBC32D190B9300126E0C /* ConstraintMakerRelatable.swift */; };
+		2C21BBE92D1910DB00126E0C /* NormalCtl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21BBE82D1910DB00126E0C /* NormalCtl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +120,7 @@
 		2C21BBC12D190B9300126E0C /* ConstraintDirectionalInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDirectionalInsets.swift; sourceTree = "<group>"; };
 		2C21BBC22D190B9300126E0C /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
 		2C21BBC32D190B9300126E0C /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		2C21BBE82D1910DB00126E0C /* NormalCtl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalCtl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				2C21BB9C2D19084100126E0C /* ModalCtl.swift */,
+				2C21BBE82D1910DB00126E0C /* NormalCtl.swift */,
 			);
 			path = SwitchWindow;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 				2C21BBD42D190B9300126E0C /* ConstraintView.swift in Sources */,
 				2C21BBC62D190B9300126E0C /* ConstraintDescription.swift in Sources */,
 				2C21BBD32D190B9300126E0C /* UILayoutSupport+Extensions.swift in Sources */,
+				2C21BBE92D1910DB00126E0C /* NormalCtl.swift in Sources */,
 				2C21BBE62D190B9300126E0C /* ConstraintLayoutSupportDSL.swift in Sources */,
 				2C21BBCC2D190B9300126E0C /* ConstraintMakerFinalizable.swift in Sources */,
 				2C21BBD62D190B9300126E0C /* ConstraintLayoutSupport.swift in Sources */,

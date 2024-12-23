@@ -23,10 +23,21 @@ class ViewController: NSViewController {
 
     @IBAction func ctl_transfrom(_ sender: Any) {
 //        ModalCtl.showAsModalWindow(target: self)
-        ModalCtl.showAsSheet(target: self)
+//        ModalCtl.showAsSheet(target: self)
+//        NormalCtl.show(target: self)
         
+        let tag = 3;
         
+        switch tag {
+        case 0:
+            ModalCtl.showAsModalWindow(target: self)
+        case 1:
+            ModalCtl.showAsSheet(target: self)
+        default:
+            NormalCtl.show(target: self)
+        }
     }
+    
     
 }
 
