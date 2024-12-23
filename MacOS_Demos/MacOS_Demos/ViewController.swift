@@ -21,6 +21,12 @@ class ViewController: NSViewController {
         }
     }
 
-
+    @IBAction func ctl_transfrom(_ sender: Any) {
+//        ModalCtl.showAsModalWindow(target: self)
+        ModalCtl.showAsSheet(target: self)
+        
+        
+    }
+    
 }
 
