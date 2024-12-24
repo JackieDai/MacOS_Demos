@@ -52,6 +52,10 @@
 		2C21BBE62D190B9300126E0C /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21BBC22D190B9300126E0C /* ConstraintLayoutSupportDSL.swift */; };
 		2C21BBE72D190B9300126E0C /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21BBC32D190B9300126E0C /* ConstraintMakerRelatable.swift */; };
 		2C21BBE92D1910DB00126E0C /* NormalCtl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21BBE82D1910DB00126E0C /* NormalCtl.swift */; };
+		2CF0ABA62D1A430A0016892B /* AppHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF0ABA52D1A430A0016892B /* AppHelper.swift */; };
+		2CF0ABA72D1A430A0016892B /* AppHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF0ABA52D1A430A0016892B /* AppHelper.swift */; };
+		2CF0ABAC2D1A51E50016892B /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF0ABAB2D1A51E40016892B /* UI.swift */; };
+		2CF0ABAD2D1A51E50016892B /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF0ABAB2D1A51E40016892B /* UI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +125,8 @@
 		2C21BBC22D190B9300126E0C /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
 		2C21BBC32D190B9300126E0C /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
 		2C21BBE82D1910DB00126E0C /* NormalCtl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalCtl.swift; sourceTree = "<group>"; };
+		2CF0ABA52D1A430A0016892B /* AppHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHelper.swift; sourceTree = "<group>"; };
+		2CF0ABAB2D1A51E40016892B /* UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,13 +177,15 @@
 		2C21BB6E2D19056B00126E0C /* MacOS_Demos */ = {
 			isa = PBXGroup;
 			children = (
-				2C21BB9E2D190B6100126E0C /* ThirdLibs */,
 				2C21BB6F2D19056B00126E0C /* AppDelegate.swift */,
+				2CF0ABA52D1A430A0016892B /* AppHelper.swift */,
+				2CF0ABAB2D1A51E40016892B /* UI.swift */,
 				2C21BB712D19056B00126E0C /* ViewController.swift */,
 				2C21BB9B2D1907AD00126E0C /* SwitchWindow */,
 				2C21BB732D19056E00126E0C /* Assets.xcassets */,
 				2C21BB752D19056E00126E0C /* Main.storyboard */,
 				2C21BB782D19056E00126E0C /* MacOS_Demos.entitlements */,
+				2C21BB9E2D190B6100126E0C /* ThirdLibs */,
 			);
 			path = MacOS_Demos;
 			sourceTree = "<group>";
@@ -392,6 +400,7 @@
 				2C21BBC72D190B9300126E0C /* ConstraintMakerPriortizable.swift in Sources */,
 				2C21BBC82D190B9300126E0C /* ConstraintAttributes.swift in Sources */,
 				2C21BBDB2D190B9300126E0C /* ConstraintMaker.swift in Sources */,
+				2CF0ABAC2D1A51E50016892B /* UI.swift in Sources */,
 				2C21BBC42D190B9300126E0C /* ConstraintMultiplierTarget.swift in Sources */,
 				2C21BBE12D190B9300126E0C /* Debugging.swift in Sources */,
 				2C21BBE32D190B9300126E0C /* LayoutConstraint.swift in Sources */,
@@ -414,6 +423,7 @@
 				2C21BBD12D190B9300126E0C /* ConstraintDirectionalInsetTarget.swift in Sources */,
 				2C21BBCB2D190B9300126E0C /* ConstraintInsets.swift in Sources */,
 				2C21BB9D2D19084100126E0C /* ModalCtl.swift in Sources */,
+				2CF0ABA62D1A430A0016892B /* AppHelper.swift in Sources */,
 				2C21BB702D19056B00126E0C /* AppDelegate.swift in Sources */,
 				2C21BBDA2D190B9300126E0C /* ConstraintMakerEditable.swift in Sources */,
 				2C21BBE42D190B9300126E0C /* ConstraintLayoutGuide+Extensions.swift in Sources */,
@@ -437,6 +447,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C21BB822D19056F00126E0C /* MacOS_DemosTests.swift in Sources */,
+				2CF0ABAD2D1A51E50016892B /* UI.swift in Sources */,
+				2CF0ABA72D1A430A0016892B /* AppHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

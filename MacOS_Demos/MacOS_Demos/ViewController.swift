@@ -12,6 +12,7 @@ class ViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
         // Do any additional setup after loading the view.
     }
 
@@ -22,19 +23,22 @@ class ViewController: NSViewController {
     }
 
     @IBAction func ctl_transfrom(_ sender: Any) {
-//        ModalCtl.showAsModalWindow(target: self)
-//        ModalCtl.showAsSheet(target: self)
-//        NormalCtl.show(target: self)
+        let btn = sender as! NSButton
         
-        let tag = 3;
+        let tag = btn.tag;
         
         switch tag {
         case 0:
-            ModalCtl.showAsModalWindow(target: self)
-        case 1:
-            ModalCtl.showAsSheet(target: self)
-        default:
             NormalCtl.show(target: self)
+            
+        case 1:
+            ModalCtl.showAsModalWindow(target: self)
+            
+        case 2:
+            ModalCtl.showAsSheet(target: self)
+           
+        default:
+            break
         }
     }
     

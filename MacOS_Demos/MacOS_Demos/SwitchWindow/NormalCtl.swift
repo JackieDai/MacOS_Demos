@@ -15,7 +15,7 @@ class NormalCtl: NSViewController {
         
         let newWindow = NSWindow(contentViewController: newViewController)
         newWindow.styleMask = [.titled, .closable, .resizable]
-        newWindow.setContentSize(NSSize(width: 800, height: 600))
+        newWindow.setContentSize(NSSize(width: Helper.ui.app_width, height: Helper.ui.app_height))
         
         let windowController = NSWindowController(window: newWindow)
         windowController.showWindow(target)
@@ -26,7 +26,9 @@ class NormalCtl: NSViewController {
     }
     
     override func loadView() {
-        self.view = NSView.init(frame: CGRect.init(x: 0, y: 0, width: 800, height: 600))
+        let view = NSView(frame: .init(x: 0, y: 0, width: Helper.ui.app_width, height: Helper.ui.app_height))
+
+        self.view = view
         self.view.wantsLayer = true
         self.view.layer?.backgroundColor = NSColor.systemGreen.cgColor
     }

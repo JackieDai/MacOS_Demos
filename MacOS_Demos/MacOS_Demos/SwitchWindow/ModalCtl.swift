@@ -30,7 +30,7 @@ class ModalCtl: NSViewController {
          最佳实践：如果视图是纯代码创建，直接在 loadView 中设置 self.view，不要调用 super.loadView()。
          */
         // super.loadView() 这个方法不要调用，否则会出错
-        let view = NSView(frame: .init(x: 0, y: 0, width: 800, height: 800 * 0.618))
+        let view = NSView(frame: .init(x: 0, y: 0, width: Helper.ui.app_width, height: Helper.ui.app_height))
         view.wantsLayer = true
         view.layer?.backgroundColor = NSColor.systemBlue.cgColor
         self.view = view
