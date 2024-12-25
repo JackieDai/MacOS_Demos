@@ -25,23 +25,33 @@ class ViewController: NSViewController {
     @IBAction func ctl_transfrom(_ sender: Any) {
         let btn = sender as! NSButton
         
-        let tag = btn.tag;
+        let tag = btn.tag
         
         switch tag {
         case 0:
-            NormalCtl.show(target: self)
+            let vc = NormalCtl()
+            vc.title = "Normal Ctl"
+            self.router.show(ctrl: vc)
             
         case 1:
-            ModalCtl.showAsModalWindow(target: self)
+
+            let vc = ModalCtl()
+            vc.title = "Modal Ctl 1"
+            self.router.show(ctrl: vc, type: .modalWindow)
             
         case 2:
-            ModalCtl.showAsSheet(target: self)
-           
+            let vc = ModalCtl()
+            vc.title = "Modal Ctl 2"
+            self.router.show(ctrl: vc, type: .sheet)
+            
+        case 3:
+            
+            let vc = TableViewCtl()
+            vc.title = "TableViewCtl"
+            self.router.show(ctrl: vc)
         default:
             break
         }
     }
-    
-    
 }
 

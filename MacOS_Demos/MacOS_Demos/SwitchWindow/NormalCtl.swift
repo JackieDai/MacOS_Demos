@@ -10,16 +10,7 @@ import Cocoa
 
 class NormalCtl: NSViewController {
     
-    static func show(target: NSViewController) {
-        let newViewController = NormalCtl()
-        
-        let newWindow = NSWindow(contentViewController: newViewController)
-        newWindow.styleMask = [.titled, .closable, .resizable]
-        newWindow.setContentSize(NSSize(width: Helper.ui.app_width, height: Helper.ui.app_height))
-        
-        let windowController = NSWindowController(window: newWindow)
-        windowController.showWindow(target)
-    }
+    
     
     deinit {
         print("delloc -- NormalCtl")

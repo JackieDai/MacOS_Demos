@@ -9,15 +9,7 @@ import Cocoa
 
 class ModalCtl: NSViewController {
     
-    static func showAsModalWindow(target: NSViewController) {
-        let modalCtl = ModalCtl()
-        target.presentAsModalWindow(modalCtl)
-    }
-    
-    static func showAsSheet(target: NSViewController) {
-        let modalCtl = ModalCtl()
-        target.presentAsSheet(modalCtl)
-    }
+   
     
     deinit {
         print("delloc -- ModalCtl")

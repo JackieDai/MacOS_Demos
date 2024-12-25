@@ -15,11 +15,11 @@ struct UI {
 extension UI {
     
     var app_width: CGFloat {
-        screen_visiable_width - 200
+        screen_visiable_width * 0.618
     }
     
     var app_height: CGFloat {
-        screen_visiable_height - 200
+        screen_visiable_height * 0.618
     }
     
     var screen_visiable_height: CGFloat {
