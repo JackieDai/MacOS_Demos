@@ -7,11 +7,8 @@
 
 import Cocoa
 
-
-
-
 class TableViewCtl: NSViewController, NSTableViewDataSource, NSTableViewDelegate {
-
+    
     var tableView: NSTableView!
     
     // Sample data for the table view
@@ -50,7 +47,7 @@ class TableViewCtl: NSViewController, NSTableViewDataSource, NSTableViewDelegate
         ["Name": "Bob", "Age": "25"],
         ["Name": "Eve", "Age": "35"]
     ]
-
+    
     
     override func loadView() {
         let v = NSView(frame: .init(x: 0, y: 0, width: Helper.ui.app_width, height: Helper.ui.app_height))
@@ -87,7 +84,7 @@ class TableViewCtl: NSViewController, NSTableViewDataSource, NSTableViewDelegate
         // Add scroll view to the main view
         self.view.addSubview(scrollView)
     }
-
+    
     // MARK: - NSTableViewDataSource
     
     func numberOfRows(in tableView: NSTableView) -> Int {
@@ -130,24 +127,24 @@ class TableViewCtl: NSViewController, NSTableViewDataSource, NSTableViewDelegate
     }
     
     func tableView(_ tableView: NSTableView, didAdd rowView: NSTableRowView, forRow row: Int) {
-            // Remove any existing divider views
-            for subview in rowView.subviews {
-                if let isDivider = objc_getAssociatedObject(subview, "isDivider") as? Bool, isDivider {
-                    subview.removeFromSuperview()
-                }
-            }
-            
-            // Add a divider view between each column
-            for column in 0..<tableView.numberOfColumns {
-                let columnRect = tableView.rect(ofColumn: column)
-                let divider = NSView(frame: NSRect(x: columnRect.maxX - 1, y: 10, width: 1, height: rowView.frame.height - 20))
-                divider.wantsLayer = true
-                divider.layer?.backgroundColor = NSColor.lightGray.cgColor
-                // Associate the divider view with a custom property
-                objc_setAssociatedObject(divider, "isDivider", true, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
-                rowView.addSubview(divider)
+        // Remove any existing divider views
+        for subview in rowView.subviews {
+            if let isDivider = objc_getAssociatedObject(subview, "isDivider") as? Bool, isDivider {
+                subview.removeFromSuperview()
             }
         }
+        
+        // Add a divider view between each column
+        for column in 0..<tableView.numberOfColumns {
+            let columnRect = tableView.rect(ofColumn: column)
+            let divider = NSView(frame: NSRect(x: columnRect.maxX - 1, y: 10, width: 1, height: rowView.frame.height - 20))
+            divider.wantsLayer = true
+            divider.layer?.backgroundColor = NSColor.lightGray.cgColor
+            // Associate the divider view with a custom property
+            objc_setAssociatedObject(divider, "isDivider", true, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+            rowView.addSubview(divider)
+        }
+    }
     
 }
 
