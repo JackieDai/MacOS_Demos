@@ -34,7 +34,6 @@ class ViewController: NSViewController {
             self.router.show(ctrl: vc)
             
         case 1:
-
             let vc = ModalCtl()
             vc.title = "Modal Ctl 1"
             self.router.show(ctrl: vc, type: .modalWindow)
@@ -45,9 +44,18 @@ class ViewController: NSViewController {
             self.router.show(ctrl: vc, type: .sheet)
             
         case 3:
-            
             let vc = TableViewCtl()
             vc.title = "TableViewCtl"
+            self.router.show(ctrl: vc)
+            
+        case 4:
+            let vc = MySplitCtrl()
+            vc.title = "MySplitCtrl"
+            self.router.show(ctrl: vc)
+            
+        case 5:
+            let vc = SplitViewVC()
+            vc.title = "SplitView"
             self.router.show(ctrl: vc)
         default:
             break

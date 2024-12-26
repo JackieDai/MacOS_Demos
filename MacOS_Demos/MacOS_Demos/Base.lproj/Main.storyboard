@@ -754,6 +754,28 @@
                                     <action selector="ctl_transfrom:" target="XfG-lQ-9wD" id="Zyk-s6-vXR"/>
                                 </connections>
                             </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" tag="4" translatesAutoresizingMaskIntoConstraints="NO" id="nW8-Rj-xFc">
+                                <rect key="frame" x="121" y="185" width="102" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="MySplitCtrl" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="aYJ-OK-14C">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="ctl_transfrom:" target="XfG-lQ-9wD" id="wHM-m8-uuA"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" tag="5" translatesAutoresizingMaskIntoConstraints="NO" id="OFf-oq-0eu">
+                                <rect key="frame" x="228" y="185" width="108" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="SplitViewVC" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="uhP-wa-Vva">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="ctl_transfrom:" target="XfG-lQ-9wD" id="jS8-x4-815"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                 </viewController>

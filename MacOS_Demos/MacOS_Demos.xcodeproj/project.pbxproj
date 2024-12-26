@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C13ACCD2D1CF79700B158F4 /* MySplitCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C13ACCB2D1CF79700B158F4 /* MySplitCtrl.swift */; };
+		2C13ACCE2D1CF79700B158F4 /* MySplitCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C13ACCC2D1CF79700B158F4 /* MySplitCtrl.xib */; };
+		2C13ACD12D1CFF5100B158F4 /* SplitViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C13ACCF2D1CFF5100B158F4 /* SplitViewVC.swift */; };
 		2C21BB702D19056B00126E0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21BB6F2D19056B00126E0C /* AppDelegate.swift */; };
 		2C21BB722D19056B00126E0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21BB712D19056B00126E0C /* ViewController.swift */; };
 		2C21BB742D19056E00126E0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C21BB732D19056E00126E0C /* Assets.xcassets */; };
@@ -79,6 +82,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C13ACCB2D1CF79700B158F4 /* MySplitCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySplitCtrl.swift; sourceTree = "<group>"; };
+		2C13ACCC2D1CF79700B158F4 /* MySplitCtrl.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MySplitCtrl.xib; sourceTree = "<group>"; };
+		2C13ACCF2D1CFF5100B158F4 /* SplitViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewVC.swift; sourceTree = "<group>"; };
 		2C21BB6C2D19056B00126E0C /* MacOS_Demos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacOS_Demos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C21BB6F2D19056B00126E0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C21BB712D19056B00126E0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -160,6 +166,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C13ACCA2D1CF77100B158F4 /* NSSplitView */ = {
+			isa = PBXGroup;
+			children = (
+				2C13ACCB2D1CF79700B158F4 /* MySplitCtrl.swift */,
+				2C13ACCC2D1CF79700B158F4 /* MySplitCtrl.xib */,
+				2C13ACCF2D1CFF5100B158F4 /* SplitViewVC.swift */,
+			);
+			path = NSSplitView;
+			sourceTree = "<group>";
+		};
 		2C21BB632D19056B00126E0C = {
 			isa = PBXGroup;
 			children = (
@@ -188,6 +204,7 @@
 				2CF0ABAB2D1A51E40016892B /* UI.swift */,
 				2C21BB712D19056B00126E0C /* ViewController.swift */,
 				2C8021602D1B8BCD00A45F81 /* Router.swift */,
+				2C13ACCA2D1CF77100B158F4 /* NSSplitView */,
 				2C8021592D1B854700A45F81 /* NSTableView */,
 				2C21BB9B2D1907AD00126E0C /* SwitchWindow */,
 				2C21BB732D19056E00126E0C /* Assets.xcassets */,
@@ -391,6 +408,7 @@
 				2C80215F2D1B875300A45F81 /* TableViewCtl.xib in Resources */,
 				2C21BB742D19056E00126E0C /* Assets.xcassets in Resources */,
 				2C21BB772D19056E00126E0C /* Main.storyboard in Resources */,
+				2C13ACCE2D1CF79700B158F4 /* MySplitCtrl.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +450,7 @@
 				2C21BBD22D190B9300126E0C /* ConstraintConfig.swift in Sources */,
 				2C21BB722D19056B00126E0C /* ViewController.swift in Sources */,
 				2C21BBDD2D190B9300126E0C /* ConstraintLayoutGuideDSL.swift in Sources */,
+				2C13ACCD2D1CF79700B158F4 /* MySplitCtrl.swift in Sources */,
 				2C21BBD52D190B9300126E0C /* ConstraintLayoutGuide.swift in Sources */,
 				2C21BBDC2D190B9300126E0C /* ConstraintRelation.swift in Sources */,
 				2C21BBD02D190B9300126E0C /* ConstraintInsetTarget.swift in Sources */,
@@ -456,6 +475,7 @@
 				2C21BBE92D1910DB00126E0C /* NormalCtl.swift in Sources */,
 				2C21BBE62D190B9300126E0C /* ConstraintLayoutSupportDSL.swift in Sources */,
 				2C21BBCC2D190B9300126E0C /* ConstraintMakerFinalizable.swift in Sources */,
+				2C13ACD12D1CFF5100B158F4 /* SplitViewVC.swift in Sources */,
 				2C21BBD62D190B9300126E0C /* ConstraintLayoutSupport.swift in Sources */,
 				2C21BBC92D190B9300126E0C /* ConstraintViewDSL.swift in Sources */,
 				2C80215E2D1B875300A45F81 /* TableViewCtl.swift in Sources */,
