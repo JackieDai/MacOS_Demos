@@ -57,6 +57,11 @@ class ViewController: NSViewController {
             let vc = SplitViewVC()
             vc.title = "SplitView"
             self.router.show(ctrl: vc)
+            
+        case 6:
+            let vc = CSVTableViewCtrl()
+            vc.title = "CSVTableViewCtrl"
+            self.router.show(ctrl: vc)
         default:
             break
         }

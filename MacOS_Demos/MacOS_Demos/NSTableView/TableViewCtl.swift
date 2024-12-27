@@ -96,6 +96,10 @@ class TableViewCtl: NSViewController, NSTableViewDataSource, NSTableViewDelegate
         self.view.addSubview(scrollView)
     }
     
+    deinit {
+        print("delloc -- TableViewCtl")
+    }
+    
     // MARK: - NSTableViewDataSource
     
     func numberOfRows(in tableView: NSTableView) -> Int {

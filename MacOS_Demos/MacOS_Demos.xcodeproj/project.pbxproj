@@ -26,6 +26,12 @@
 		2C1B9F7D2D1E32990075FA27 /* CSVRowDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B9F6E2D1E32990075FA27 /* CSVRowDecoder.swift */; };
 		2C1B9F7E2D1E32990075FA27 /* CSVReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B9F6F2D1E32990075FA27 /* CSVReader.swift */; };
 		2C1B9F7F2D1E32990075FA27 /* CSVReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B9F6F2D1E32990075FA27 /* CSVReader.swift */; };
+		2C1B9F822D1E35320075FA27 /* Initial.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2C1B9F812D1E35320075FA27 /* Initial.csv */; };
+		2C1B9F832D1E35320075FA27 /* Initial.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2C1B9F812D1E35320075FA27 /* Initial.csv */; };
+		2C1B9F852D1E35850075FA27 /* CSVTableViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B9F842D1E35850075FA27 /* CSVTableViewCtrl.swift */; };
+		2C1B9F862D1E35850075FA27 /* CSVTableViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B9F842D1E35850075FA27 /* CSVTableViewCtrl.swift */; };
+		2C1B9F882D1E46F30075FA27 /* PingPongTest_LF.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2C1B9F872D1E46F30075FA27 /* PingPongTest_LF.csv */; };
+		2C1B9F892D1E46F30075FA27 /* PingPongTest_LF.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2C1B9F872D1E46F30075FA27 /* PingPongTest_LF.csv */; };
 		2C21BB702D19056B00126E0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21BB6F2D19056B00126E0C /* AppDelegate.swift */; };
 		2C21BB722D19056B00126E0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21BB712D19056B00126E0C /* ViewController.swift */; };
 		2C21BB742D19056E00126E0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C21BB732D19056E00126E0C /* Assets.xcassets */; };
@@ -109,6 +115,9 @@
 		2C1B9F6D2D1E32990075FA27 /* Endian.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endian.swift; sourceTree = "<group>"; };
 		2C1B9F6E2D1E32990075FA27 /* CSVRowDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVRowDecoder.swift; sourceTree = "<group>"; };
 		2C1B9F6F2D1E32990075FA27 /* CSVReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVReader.swift; sourceTree = "<group>"; };
+		2C1B9F812D1E35320075FA27 /* Initial.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Initial.csv; sourceTree = "<group>"; };
+		2C1B9F842D1E35850075FA27 /* CSVTableViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVTableViewCtrl.swift; sourceTree = "<group>"; };
+		2C1B9F872D1E46F30075FA27 /* PingPongTest_LF.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PingPongTest_LF.csv; sourceTree = "<group>"; };
 		2C21BB6C2D19056B00126E0C /* MacOS_Demos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacOS_Demos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C21BB6F2D19056B00126E0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C21BB712D19056B00126E0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -213,6 +222,16 @@
 				2C1B9F6F2D1E32990075FA27 /* CSVReader.swift */,
 			);
 			path = CSV;
+			sourceTree = "<group>";
+		};
+		2C1B9F802D1E35230075FA27 /* CSV-Test */ = {
+			isa = PBXGroup;
+			children = (
+				2C1B9F872D1E46F30075FA27 /* PingPongTest_LF.csv */,
+				2C1B9F812D1E35320075FA27 /* Initial.csv */,
+				2C1B9F842D1E35850075FA27 /* CSVTableViewCtrl.swift */,
+			);
+			path = "CSV-Test";
 			sourceTree = "<group>";
 		};
 		2C21BB632D19056B00126E0C = {
@@ -335,6 +354,7 @@
 		2C8021592D1B854700A45F81 /* NSTableView */ = {
 			isa = PBXGroup;
 			children = (
+				2C1B9F802D1E35230075FA27 /* CSV-Test */,
 				2C80215C2D1B875300A45F81 /* TableViewCtl.swift */,
 				2C80215D2D1B875300A45F81 /* TableViewCtl.xib */,
 			);
@@ -447,7 +467,9 @@
 			files = (
 				2C80215F2D1B875300A45F81 /* TableViewCtl.xib in Resources */,
 				2C21BB742D19056E00126E0C /* Assets.xcassets in Resources */,
+				2C1B9F822D1E35320075FA27 /* Initial.csv in Resources */,
 				2C21BB772D19056E00126E0C /* Main.storyboard in Resources */,
+				2C1B9F882D1E46F30075FA27 /* PingPongTest_LF.csv in Resources */,
 				2C13ACCE2D1CF79700B158F4 /* MySplitCtrl.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +478,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C1B9F892D1E46F30075FA27 /* PingPongTest_LF.csv in Resources */,
+				2C1B9F832D1E35320075FA27 /* Initial.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +542,7 @@
 				2C21BBCF2D190B9300126E0C /* ConstraintPriority.swift in Sources */,
 				2C21BBD42D190B9300126E0C /* ConstraintView.swift in Sources */,
 				2C21BBC62D190B9300126E0C /* ConstraintDescription.swift in Sources */,
+				2C1B9F852D1E35850075FA27 /* CSVTableViewCtrl.swift in Sources */,
 				2C21BBD32D190B9300126E0C /* UILayoutSupport+Extensions.swift in Sources */,
 				2C21BBE92D1910DB00126E0C /* NormalCtl.swift in Sources */,
 				2C21BBE62D190B9300126E0C /* ConstraintLayoutSupportDSL.swift in Sources */,
@@ -534,6 +559,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C1B9F862D1E35850075FA27 /* CSVTableViewCtrl.swift in Sources */,
 				2C21BB822D19056F00126E0C /* MacOS_DemosTests.swift in Sources */,
 				2C1B9F792D1E32990075FA27 /* UnicodeIterator.swift in Sources */,
 				2C1B9F7D2D1E32990075FA27 /* CSVRowDecoder.swift in Sources */,
