@@ -74,9 +74,9 @@ class TableViewCtl: NSViewController, NSTableViewDataSource, NSTableViewDelegate
          .dashedHorizontalGridLineMask：绘制水平dash 类型网格线。
          */
         tableView.gridStyleMask = [.solidVerticalGridLineMask, .solidHorizontalGridLineMask, .dashedHorizontalGridLineMask]
-
+        
         tableView.gridColor = .cyan
-
+        
         
         // Create columns
         let nameColumn = NSTableColumn(identifier: NSUserInterfaceItemIdentifier("Name"))
@@ -89,11 +89,24 @@ class TableViewCtl: NSViewController, NSTableViewDataSource, NSTableViewDelegate
         
         // Create scroll view and add table view to it
         let scrollView = NSScrollView(frame: self.view.bounds)
+        
+        
         scrollView.documentView = tableView
         scrollView.hasVerticalScroller = true
         
         // Add scroll view to the main view
         self.view.addSubview(scrollView)
+        
+        scrollView.translatesAutoresizingMaskIntoConstraints = false // 启用 Auto Layout,否则在窗口最大化的时候,没法同步
+        // 设置滚动视图的约束
+        NSLayoutConstraint.activate([
+            scrollView.topAnchor.constraint(equalTo: self.view.topAnchor),
+            scrollView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor),
+            scrollView.leadingAnchor.constraint(equalTo: self.view.leadingAnchor),
+            scrollView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor)
+        ])
+        
+        
     }
     
     deinit {
@@ -115,7 +128,7 @@ class TableViewCtl: NSViewController, NSTableViewDataSource, NSTableViewDelegate
         // Get the cell identifier
         let identifier = tableColumn?.identifier.rawValue ?? ""
         
-        print("index == \(row)  identifier == \(identifier)")
+        //        print("index == \(row)  identifier == \(identifier)")
         
         // Get the cell view
         if let cell = tableView.makeView(withIdentifier: NSUserInterfaceItemIdentifier(identifier), owner: nil) as? NSTableCellView {
