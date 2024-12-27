@@ -8,19 +8,19 @@
 import Cocoa
 
 /// 二维数组，外层表示 column， 内层表示 row
-typealias CoverageType = [[String]]
+typealias CSVDataType = [[String]]
 
 struct CsvTableHepler {
     
     let csvFileName: String
     
-    var csvData: CoverageType {
+    var csvData: CSVDataType {
         // 加载csv 数据
         guard let path = Bundle.main.path(forResource: csvFileName, ofType: "csv") else {
             assert(false, "无效path")
         }
         
-        var data: CoverageType = .init()
+        var data: CSVDataType = .init()
         
         guard let stream = InputStream(fileAtPath: path) else {
             assert(false, "无效")
@@ -48,7 +48,7 @@ class CSVTableViewCtrl: NSViewController {
     
     lazy var columns_header_data = csvHelper.csvData.first!
     
-    lazy var columns_body_data: CoverageType = {
+    lazy var columns_body_data: CSVDataType = {
         var totalData = csvHelper.csvData
         totalData.removeFirst()
         return totalData
