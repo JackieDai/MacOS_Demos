@@ -10,6 +10,22 @@
 		2C13ACCD2D1CF79700B158F4 /* MySplitCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C13ACCB2D1CF79700B158F4 /* MySplitCtrl.swift */; };
 		2C13ACCE2D1CF79700B158F4 /* MySplitCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C13ACCC2D1CF79700B158F4 /* MySplitCtrl.xib */; };
 		2C13ACD12D1CFF5100B158F4 /* SplitViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C13ACCF2D1CFF5100B158F4 /* SplitViewVC.swift */; };
+		2C1B9F702D1E32990075FA27 /* CSVError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B9F682D1E32990075FA27 /* CSVError.swift */; };
+		2C1B9F712D1E32990075FA27 /* CSVError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B9F682D1E32990075FA27 /* CSVError.swift */; };
+		2C1B9F722D1E32990075FA27 /* CSVWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B9F692D1E32990075FA27 /* CSVWriter.swift */; };
+		2C1B9F732D1E32990075FA27 /* CSVWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B9F692D1E32990075FA27 /* CSVWriter.swift */; };
+		2C1B9F742D1E32990075FA27 /* BinaryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B9F6A2D1E32990075FA27 /* BinaryReader.swift */; };
+		2C1B9F752D1E32990075FA27 /* BinaryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B9F6A2D1E32990075FA27 /* BinaryReader.swift */; };
+		2C1B9F762D1E32990075FA27 /* Legacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B9F6B2D1E32990075FA27 /* Legacy.swift */; };
+		2C1B9F772D1E32990075FA27 /* Legacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B9F6B2D1E32990075FA27 /* Legacy.swift */; };
+		2C1B9F782D1E32990075FA27 /* UnicodeIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B9F6C2D1E32990075FA27 /* UnicodeIterator.swift */; };
+		2C1B9F792D1E32990075FA27 /* UnicodeIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B9F6C2D1E32990075FA27 /* UnicodeIterator.swift */; };
+		2C1B9F7A2D1E32990075FA27 /* Endian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B9F6D2D1E32990075FA27 /* Endian.swift */; };
+		2C1B9F7B2D1E32990075FA27 /* Endian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B9F6D2D1E32990075FA27 /* Endian.swift */; };
+		2C1B9F7C2D1E32990075FA27 /* CSVRowDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B9F6E2D1E32990075FA27 /* CSVRowDecoder.swift */; };
+		2C1B9F7D2D1E32990075FA27 /* CSVRowDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B9F6E2D1E32990075FA27 /* CSVRowDecoder.swift */; };
+		2C1B9F7E2D1E32990075FA27 /* CSVReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B9F6F2D1E32990075FA27 /* CSVReader.swift */; };
+		2C1B9F7F2D1E32990075FA27 /* CSVReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B9F6F2D1E32990075FA27 /* CSVReader.swift */; };
 		2C21BB702D19056B00126E0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21BB6F2D19056B00126E0C /* AppDelegate.swift */; };
 		2C21BB722D19056B00126E0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21BB712D19056B00126E0C /* ViewController.swift */; };
 		2C21BB742D19056E00126E0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C21BB732D19056E00126E0C /* Assets.xcassets */; };
@@ -85,6 +101,14 @@
 		2C13ACCB2D1CF79700B158F4 /* MySplitCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySplitCtrl.swift; sourceTree = "<group>"; };
 		2C13ACCC2D1CF79700B158F4 /* MySplitCtrl.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MySplitCtrl.xib; sourceTree = "<group>"; };
 		2C13ACCF2D1CFF5100B158F4 /* SplitViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewVC.swift; sourceTree = "<group>"; };
+		2C1B9F682D1E32990075FA27 /* CSVError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVError.swift; sourceTree = "<group>"; };
+		2C1B9F692D1E32990075FA27 /* CSVWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVWriter.swift; sourceTree = "<group>"; };
+		2C1B9F6A2D1E32990075FA27 /* BinaryReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryReader.swift; sourceTree = "<group>"; };
+		2C1B9F6B2D1E32990075FA27 /* Legacy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Legacy.swift; sourceTree = "<group>"; };
+		2C1B9F6C2D1E32990075FA27 /* UnicodeIterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnicodeIterator.swift; sourceTree = "<group>"; };
+		2C1B9F6D2D1E32990075FA27 /* Endian.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endian.swift; sourceTree = "<group>"; };
+		2C1B9F6E2D1E32990075FA27 /* CSVRowDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVRowDecoder.swift; sourceTree = "<group>"; };
+		2C1B9F6F2D1E32990075FA27 /* CSVReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVReader.swift; sourceTree = "<group>"; };
 		2C21BB6C2D19056B00126E0C /* MacOS_Demos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacOS_Demos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C21BB6F2D19056B00126E0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C21BB712D19056B00126E0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -176,6 +200,21 @@
 			path = NSSplitView;
 			sourceTree = "<group>";
 		};
+		2C1B9F672D1E32990075FA27 /* CSV */ = {
+			isa = PBXGroup;
+			children = (
+				2C1B9F682D1E32990075FA27 /* CSVError.swift */,
+				2C1B9F692D1E32990075FA27 /* CSVWriter.swift */,
+				2C1B9F6A2D1E32990075FA27 /* BinaryReader.swift */,
+				2C1B9F6B2D1E32990075FA27 /* Legacy.swift */,
+				2C1B9F6C2D1E32990075FA27 /* UnicodeIterator.swift */,
+				2C1B9F6D2D1E32990075FA27 /* Endian.swift */,
+				2C1B9F6E2D1E32990075FA27 /* CSVRowDecoder.swift */,
+				2C1B9F6F2D1E32990075FA27 /* CSVReader.swift */,
+			);
+			path = CSV;
+			sourceTree = "<group>";
+		};
 		2C21BB632D19056B00126E0C = {
 			isa = PBXGroup;
 			children = (
@@ -244,6 +283,7 @@
 		2C21BB9E2D190B6100126E0C /* ThirdLibs */ = {
 			isa = PBXGroup;
 			children = (
+				2C1B9F672D1E32990075FA27 /* CSV */,
 				2C21BB9F2D190B9300126E0C /* Snapkit */,
 			);
 			path = ThirdLibs;
@@ -436,28 +476,35 @@
 				2C8021612D1B8BCD00A45F81 /* Router.swift in Sources */,
 				2C21BBC72D190B9300126E0C /* ConstraintMakerPriortizable.swift in Sources */,
 				2C21BBC82D190B9300126E0C /* ConstraintAttributes.swift in Sources */,
+				2C1B9F722D1E32990075FA27 /* CSVWriter.swift in Sources */,
 				2C21BBDB2D190B9300126E0C /* ConstraintMaker.swift in Sources */,
 				2CF0ABAC2D1A51E50016892B /* UI.swift in Sources */,
 				2C21BBC42D190B9300126E0C /* ConstraintMultiplierTarget.swift in Sources */,
+				2C1B9F742D1E32990075FA27 /* BinaryReader.swift in Sources */,
 				2C21BBE12D190B9300126E0C /* Debugging.swift in Sources */,
 				2C21BBE32D190B9300126E0C /* LayoutConstraint.swift in Sources */,
 				2C21BBD72D190B9300126E0C /* Typealiases.swift in Sources */,
 				2C21BBDE2D190B9300126E0C /* ConstraintView+Extensions.swift in Sources */,
 				2C21BBCE2D190B9300126E0C /* ConstraintMakerExtendable.swift in Sources */,
 				2C21BBDF2D190B9300126E0C /* ConstraintItem.swift in Sources */,
+				2C1B9F7A2D1E32990075FA27 /* Endian.swift in Sources */,
 				2C21BBD92D190B9300126E0C /* ConstraintOffsetTarget.swift in Sources */,
 				2C21BBE72D190B9300126E0C /* ConstraintMakerRelatable.swift in Sources */,
+				2C1B9F7C2D1E32990075FA27 /* CSVRowDecoder.swift in Sources */,
 				2C21BBD22D190B9300126E0C /* ConstraintConfig.swift in Sources */,
 				2C21BB722D19056B00126E0C /* ViewController.swift in Sources */,
 				2C21BBDD2D190B9300126E0C /* ConstraintLayoutGuideDSL.swift in Sources */,
 				2C13ACCD2D1CF79700B158F4 /* MySplitCtrl.swift in Sources */,
 				2C21BBD52D190B9300126E0C /* ConstraintLayoutGuide.swift in Sources */,
+				2C1B9F7E2D1E32990075FA27 /* CSVReader.swift in Sources */,
 				2C21BBDC2D190B9300126E0C /* ConstraintRelation.swift in Sources */,
 				2C21BBD02D190B9300126E0C /* ConstraintInsetTarget.swift in Sources */,
+				2C1B9F702D1E32990075FA27 /* CSVError.swift in Sources */,
 				2C21BBC52D190B9300126E0C /* LayoutConstraintItem.swift in Sources */,
 				2C21BBE52D190B9300126E0C /* ConstraintDirectionalInsets.swift in Sources */,
 				2C21BBE02D190B9300126E0C /* Constraint.swift in Sources */,
 				2C21BBE22D190B9300126E0C /* ConstraintRelatableTarget.swift in Sources */,
+				2C1B9F762D1E32990075FA27 /* Legacy.swift in Sources */,
 				2C21BBD12D190B9300126E0C /* ConstraintDirectionalInsetTarget.swift in Sources */,
 				2C21BBCB2D190B9300126E0C /* ConstraintInsets.swift in Sources */,
 				2C21BB9D2D19084100126E0C /* ModalCtl.swift in Sources */,
@@ -477,6 +524,7 @@
 				2C21BBCC2D190B9300126E0C /* ConstraintMakerFinalizable.swift in Sources */,
 				2C13ACD12D1CFF5100B158F4 /* SplitViewVC.swift in Sources */,
 				2C21BBD62D190B9300126E0C /* ConstraintLayoutSupport.swift in Sources */,
+				2C1B9F782D1E32990075FA27 /* UnicodeIterator.swift in Sources */,
 				2C21BBC92D190B9300126E0C /* ConstraintViewDSL.swift in Sources */,
 				2C80215E2D1B875300A45F81 /* TableViewCtl.swift in Sources */,
 			);
@@ -487,8 +535,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C21BB822D19056F00126E0C /* MacOS_DemosTests.swift in Sources */,
+				2C1B9F792D1E32990075FA27 /* UnicodeIterator.swift in Sources */,
+				2C1B9F7D2D1E32990075FA27 /* CSVRowDecoder.swift in Sources */,
+				2C1B9F732D1E32990075FA27 /* CSVWriter.swift in Sources */,
 				2CF0ABAD2D1A51E50016892B /* UI.swift in Sources */,
 				2CF0ABA72D1A430A0016892B /* AppHelper.swift in Sources */,
+				2C1B9F7B2D1E32990075FA27 /* Endian.swift in Sources */,
+				2C1B9F7F2D1E32990075FA27 /* CSVReader.swift in Sources */,
+				2C1B9F772D1E32990075FA27 /* Legacy.swift in Sources */,
+				2C1B9F712D1E32990075FA27 /* CSVError.swift in Sources */,
+				2C1B9F752D1E32990075FA27 /* BinaryReader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

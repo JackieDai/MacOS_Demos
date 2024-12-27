@@ -65,7 +65,18 @@ class TableViewCtl: NSViewController, NSTableViewDataSource, NSTableViewDelegate
         tableView.dataSource = self
         tableView.delegate = self
         tableView.usesAlternatingRowBackgroundColors = true
-        tableView.selectionHighlightStyle = .none
+        
+        
+        // below code is to setup seperate line
+        /**
+         .solidHorizontalGridLineMask：绘制水平网格线。
+         .solidVerticalGridLineMask：绘制竖直网格线。
+         .dashedHorizontalGridLineMask：绘制水平dash 类型网格线。
+         */
+        tableView.gridStyleMask = [.solidVerticalGridLineMask, .solidHorizontalGridLineMask, .dashedHorizontalGridLineMask]
+
+        tableView.gridColor = .cyan
+
         
         // Create columns
         let nameColumn = NSTableColumn(identifier: NSUserInterfaceItemIdentifier("Name"))
@@ -118,32 +129,15 @@ class TableViewCtl: NSViewController, NSTableViewDataSource, NSTableViewDelegate
             field.snp.remakeConstraints { make in
                 make.centerY.equalToSuperview()
             }
+            
+            cell.wantsLayer = true
+            cell.layer?.backgroundColor = NSColor.brown.cgColor
             return cell
         }
     }
     
     func tableView(_ tableView: NSTableView, heightOfRow row: Int) -> CGFloat {
         return 60
-    }
-    
-    func tableView(_ tableView: NSTableView, didAdd rowView: NSTableRowView, forRow row: Int) {
-        // Remove any existing divider views
-        for subview in rowView.subviews {
-            if let isDivider = objc_getAssociatedObject(subview, "isDivider") as? Bool, isDivider {
-                subview.removeFromSuperview()
-            }
-        }
-        
-        // Add a divider view between each column
-        for column in 0..<tableView.numberOfColumns {
-            let columnRect = tableView.rect(ofColumn: column)
-            let divider = NSView(frame: NSRect(x: columnRect.maxX - 1, y: 10, width: 1, height: rowView.frame.height - 20))
-            divider.wantsLayer = true
-            divider.layer?.backgroundColor = NSColor.lightGray.cgColor
-            // Associate the divider view with a custom property
-            objc_setAssociatedObject(divider, "isDivider", true, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
-            rowView.addSubview(divider)
-        }
     }
     
 }
