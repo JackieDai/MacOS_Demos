@@ -84,6 +84,5 @@ extension UI {
         let frame = NSMakeRect(x, y, width, height)
         
         mainWindow.setFrame(frame, display: true)
-        
     }
 }
