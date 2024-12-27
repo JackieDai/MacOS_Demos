@@ -62,6 +62,12 @@ class MainViewController: NSViewController {
             let vc = CSVTableViewCtrl()
             vc.title = "CSVTableViewCtrl"
             self.router.show(ctrl: vc)
+        
+        case 7:
+            let vc = StackViewCtrl()
+            vc.title = "StackViewCtrl"
+            self.router.show(ctrl: vc)
+            
         default:
             break
         }
