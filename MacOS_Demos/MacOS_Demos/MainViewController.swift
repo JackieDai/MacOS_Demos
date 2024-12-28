@@ -78,6 +78,11 @@ class MainViewController: NSViewController {
             vc.title = "NSPopoverCtrl"
             self.router.show(ctrl: vc)
             
+        case 10:
+            let vc = InteractiveWithExCtrl()
+            vc.title = "InteractiveWithExCtrl"
+            self.router.show(vc)
+            
         default:
             break
         }

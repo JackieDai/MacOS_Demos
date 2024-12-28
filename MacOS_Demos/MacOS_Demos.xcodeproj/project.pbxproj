@@ -35,6 +35,12 @@
 		2C1B9F8C2D1E533C0075FA27 /* StackViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B9F8B2D1E533C0075FA27 /* StackViewCtrl.swift */; };
 		2C1B9F8E2D1F7E2E0075FA27 /* ScrollStackCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B9F8D2D1F7E2E0075FA27 /* ScrollStackCtrl.swift */; };
 		2C1B9F912D1F87C60075FA27 /* NSPopoverCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B9F902D1F87C60075FA27 /* NSPopoverCtrl.swift */; };
+		2C1B9F942D1F8D5E0075FA27 /* math_operations in Resources */ = {isa = PBXBuildFile; fileRef = 2C1B9F932D1F8D5E0075FA27 /* math_operations */; };
+		2C1B9F952D1F8D5E0075FA27 /* math_operations in Resources */ = {isa = PBXBuildFile; fileRef = 2C1B9F932D1F8D5E0075FA27 /* math_operations */; };
+		2C1B9F982D1F8D970075FA27 /* InteractiveWithExCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B9F962D1F8D970075FA27 /* InteractiveWithExCtrl.swift */; };
+		2C1B9F992D1F8D970075FA27 /* InteractiveWithExCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B9F962D1F8D970075FA27 /* InteractiveWithExCtrl.swift */; };
+		2C1B9F9A2D1F8D970075FA27 /* InteractiveWithExCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C1B9F972D1F8D970075FA27 /* InteractiveWithExCtrl.xib */; };
+		2C1B9F9B2D1F8D970075FA27 /* InteractiveWithExCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C1B9F972D1F8D970075FA27 /* InteractiveWithExCtrl.xib */; };
 		2C21BB702D19056B00126E0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21BB6F2D19056B00126E0C /* AppDelegate.swift */; };
 		2C21BB722D19056B00126E0C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21BB712D19056B00126E0C /* MainViewController.swift */; };
 		2C21BB742D19056E00126E0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C21BB732D19056E00126E0C /* Assets.xcassets */; };
@@ -124,6 +130,9 @@
 		2C1B9F8B2D1E533C0075FA27 /* StackViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewCtrl.swift; sourceTree = "<group>"; };
 		2C1B9F8D2D1F7E2E0075FA27 /* ScrollStackCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollStackCtrl.swift; sourceTree = "<group>"; };
 		2C1B9F902D1F87C60075FA27 /* NSPopoverCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSPopoverCtrl.swift; sourceTree = "<group>"; };
+		2C1B9F932D1F8D5E0075FA27 /* math_operations */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = math_operations; path = ../../../math_operations; sourceTree = "<group>"; };
+		2C1B9F962D1F8D970075FA27 /* InteractiveWithExCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveWithExCtrl.swift; sourceTree = "<group>"; };
+		2C1B9F972D1F8D970075FA27 /* InteractiveWithExCtrl.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InteractiveWithExCtrl.xib; sourceTree = "<group>"; };
 		2C21BB6C2D19056B00126E0C /* MacOS_Demos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacOS_Demos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C21BB6F2D19056B00126E0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C21BB712D19056B00126E0C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -257,6 +266,16 @@
 			path = NSPopover;
 			sourceTree = "<group>";
 		};
+		2C1B9F922D1F8C260075FA27 /* InteractWithC */ = {
+			isa = PBXGroup;
+			children = (
+				2C1B9F932D1F8D5E0075FA27 /* math_operations */,
+				2C1B9F962D1F8D970075FA27 /* InteractiveWithExCtrl.swift */,
+				2C1B9F972D1F8D970075FA27 /* InteractiveWithExCtrl.xib */,
+			);
+			path = InteractWithC;
+			sourceTree = "<group>";
+		};
 		2C21BB632D19056B00126E0C = {
 			isa = PBXGroup;
 			children = (
@@ -285,6 +304,7 @@
 				2CF0ABA52D1A430A0016892B /* AppHelper.swift */,
 				2CF0ABAB2D1A51E40016892B /* UI.swift */,
 				2C8021602D1B8BCD00A45F81 /* Router.swift */,
+				2C1B9F922D1F8C260075FA27 /* InteractWithC */,
 				2C1B9F8F2D1F87AD0075FA27 /* NSPopover */,
 				2C1B9F8A2D1E53240075FA27 /* NSStackView */,
 				2C13ACCA2D1CF77100B158F4 /* NSSplitView */,
@@ -493,8 +513,10 @@
 				2C80215F2D1B875300A45F81 /* TableViewCtl.xib in Resources */,
 				2C21BB742D19056E00126E0C /* Assets.xcassets in Resources */,
 				2C1B9F822D1E35320075FA27 /* Initial.csv in Resources */,
+				2C1B9F942D1F8D5E0075FA27 /* math_operations in Resources */,
 				2C21BB772D19056E00126E0C /* Main.storyboard in Resources */,
 				2C1B9F882D1E46F30075FA27 /* PingPongTest_LF.csv in Resources */,
+				2C1B9F9A2D1F8D970075FA27 /* InteractiveWithExCtrl.xib in Resources */,
 				2C13ACCE2D1CF79700B158F4 /* MySplitCtrl.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +527,8 @@
 			files = (
 				2C1B9F892D1E46F30075FA27 /* PingPongTest_LF.csv in Resources */,
 				2C1B9F832D1E35320075FA27 /* Initial.csv in Resources */,
+				2C1B9F9B2D1F8D970075FA27 /* InteractiveWithExCtrl.xib in Resources */,
+				2C1B9F952D1F8D5E0075FA27 /* math_operations in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,6 +547,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C8021612D1B8BCD00A45F81 /* Router.swift in Sources */,
+				2C1B9F982D1F8D970075FA27 /* InteractiveWithExCtrl.swift in Sources */,
 				2C21BBC72D190B9300126E0C /* ConstraintMakerPriortizable.swift in Sources */,
 				2C21BBC82D190B9300126E0C /* ConstraintAttributes.swift in Sources */,
 				2C1B9F722D1E32990075FA27 /* CSVWriter.swift in Sources */,
@@ -597,6 +622,7 @@
 				2C1B9F7B2D1E32990075FA27 /* Endian.swift in Sources */,
 				2C1B9F7F2D1E32990075FA27 /* CSVReader.swift in Sources */,
 				2C1B9F772D1E32990075FA27 /* Legacy.swift in Sources */,
+				2C1B9F992D1F8D970075FA27 /* InteractiveWithExCtrl.swift in Sources */,
 				2C1B9F712D1E32990075FA27 /* CSVError.swift in Sources */,
 				2C1B9F752D1E32990075FA27 /* BinaryReader.swift in Sources */,
 			);
@@ -688,7 +714,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -742,7 +768,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -770,7 +796,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "lingxiao.MacOS-Demos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -798,7 +824,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "lingxiao.MacOS-Demos";
 				PRODUCT_NAME = "$(TARGET_NAME)";

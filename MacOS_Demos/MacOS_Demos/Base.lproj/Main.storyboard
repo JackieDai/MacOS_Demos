@@ -820,6 +820,17 @@
                                     <action selector="ctl_transfrom:" target="XfG-lQ-9wD" id="UWE-nX-smU"/>
                                 </connections>
                             </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" tag="10" translatesAutoresizingMaskIntoConstraints="NO" id="yJu-to-KJU">
+                                <rect key="frame" x="105" y="153" width="118" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="IntaractWithC" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="gKc-fL-pJA">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="ctl_transfrom:" target="XfG-lQ-9wD" id="lqN-jI-Cea"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                 </viewController>

@@ -26,4 +26,8 @@ TODO:
 
 - 与Python,C,C++文件或者对应可执行文件的交互
 
+  - math_operations
+    - `cd: root dir`
+    - `gcc -o math_operations math_ooperations.c`
+
   

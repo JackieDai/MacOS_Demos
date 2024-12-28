@@ -59,4 +59,12 @@ extension Router where T: NSViewController {
             self.base.presentAsSheet(ctrl)
         } 
     }
+    
+    func show(_ nibCtrl: NSViewController) {
+        let vc = nibCtrl
+        let window = NSWindow(contentViewController: vc)
+        window.styleMask = [.titled, .closable, .resizable]
+        let windowCtl = NSWindowController(window: window)
+        windowCtl.showWindow(self.base)
+    }
 }
