@@ -68,6 +68,11 @@ class MainViewController: NSViewController {
             vc.title = "StackViewCtrl"
             self.router.show(ctrl: vc)
             
+        case 8:
+            let vc = ScrollStackCtrl()
+            vc.title = "ScrollStackCtrl"
+            self.router.show(ctrl: vc)
+            
         default:
             break
         }

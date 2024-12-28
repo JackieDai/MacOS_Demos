@@ -87,4 +87,8 @@ class StackViewCtrl: NSViewController {
         alert.runModal()
     }
     
+    deinit {
+        print("StackViewCtrl - Dealloc")
+    }
+    
 }

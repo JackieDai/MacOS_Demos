@@ -33,6 +33,7 @@
 		2C1B9F882D1E46F30075FA27 /* PingPongTest_LF.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2C1B9F872D1E46F30075FA27 /* PingPongTest_LF.csv */; };
 		2C1B9F892D1E46F30075FA27 /* PingPongTest_LF.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2C1B9F872D1E46F30075FA27 /* PingPongTest_LF.csv */; };
 		2C1B9F8C2D1E533C0075FA27 /* StackViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B9F8B2D1E533C0075FA27 /* StackViewCtrl.swift */; };
+		2C1B9F8E2D1F7E2E0075FA27 /* ScrollStackCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B9F8D2D1F7E2E0075FA27 /* ScrollStackCtrl.swift */; };
 		2C21BB702D19056B00126E0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21BB6F2D19056B00126E0C /* AppDelegate.swift */; };
 		2C21BB722D19056B00126E0C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21BB712D19056B00126E0C /* MainViewController.swift */; };
 		2C21BB742D19056E00126E0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C21BB732D19056E00126E0C /* Assets.xcassets */; };
@@ -120,6 +121,7 @@
 		2C1B9F842D1E35850075FA27 /* CSVTableViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVTableViewCtrl.swift; sourceTree = "<group>"; };
 		2C1B9F872D1E46F30075FA27 /* PingPongTest_LF.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PingPongTest_LF.csv; sourceTree = "<group>"; };
 		2C1B9F8B2D1E533C0075FA27 /* StackViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewCtrl.swift; sourceTree = "<group>"; };
+		2C1B9F8D2D1F7E2E0075FA27 /* ScrollStackCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollStackCtrl.swift; sourceTree = "<group>"; };
 		2C21BB6C2D19056B00126E0C /* MacOS_Demos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacOS_Demos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C21BB6F2D19056B00126E0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C21BB712D19056B00126E0C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -240,6 +242,7 @@
 			isa = PBXGroup;
 			children = (
 				2C1B9F8B2D1E533C0075FA27 /* StackViewCtrl.swift */,
+				2C1B9F8D2D1F7E2E0075FA27 /* ScrollStackCtrl.swift */,
 			);
 			path = NSStackView;
 			sourceTree = "<group>";
@@ -515,6 +518,7 @@
 				2C21BBDB2D190B9300126E0C /* ConstraintMaker.swift in Sources */,
 				2CF0ABAC2D1A51E50016892B /* UI.swift in Sources */,
 				2C21BBC42D190B9300126E0C /* ConstraintMultiplierTarget.swift in Sources */,
+				2C1B9F8E2D1F7E2E0075FA27 /* ScrollStackCtrl.swift in Sources */,
 				2C1B9F742D1E32990075FA27 /* BinaryReader.swift in Sources */,
 				2C21BBE12D190B9300126E0C /* Debugging.swift in Sources */,
 				2C21BBE32D190B9300126E0C /* LayoutConstraint.swift in Sources */,
