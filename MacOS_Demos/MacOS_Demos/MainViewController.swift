@@ -73,6 +73,11 @@ class MainViewController: NSViewController {
             vc.title = "ScrollStackCtrl"
             self.router.show(ctrl: vc)
             
+        case 9:
+            let vc = NSPopoverCtrl()
+            vc.title = "NSPopoverCtrl"
+            self.router.show(ctrl: vc)
+            
         default:
             break
         }

@@ -34,6 +34,7 @@
 		2C1B9F892D1E46F30075FA27 /* PingPongTest_LF.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2C1B9F872D1E46F30075FA27 /* PingPongTest_LF.csv */; };
 		2C1B9F8C2D1E533C0075FA27 /* StackViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B9F8B2D1E533C0075FA27 /* StackViewCtrl.swift */; };
 		2C1B9F8E2D1F7E2E0075FA27 /* ScrollStackCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B9F8D2D1F7E2E0075FA27 /* ScrollStackCtrl.swift */; };
+		2C1B9F912D1F87C60075FA27 /* NSPopoverCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B9F902D1F87C60075FA27 /* NSPopoverCtrl.swift */; };
 		2C21BB702D19056B00126E0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21BB6F2D19056B00126E0C /* AppDelegate.swift */; };
 		2C21BB722D19056B00126E0C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21BB712D19056B00126E0C /* MainViewController.swift */; };
 		2C21BB742D19056E00126E0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C21BB732D19056E00126E0C /* Assets.xcassets */; };
@@ -122,6 +123,7 @@
 		2C1B9F872D1E46F30075FA27 /* PingPongTest_LF.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PingPongTest_LF.csv; sourceTree = "<group>"; };
 		2C1B9F8B2D1E533C0075FA27 /* StackViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewCtrl.swift; sourceTree = "<group>"; };
 		2C1B9F8D2D1F7E2E0075FA27 /* ScrollStackCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollStackCtrl.swift; sourceTree = "<group>"; };
+		2C1B9F902D1F87C60075FA27 /* NSPopoverCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSPopoverCtrl.swift; sourceTree = "<group>"; };
 		2C21BB6C2D19056B00126E0C /* MacOS_Demos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacOS_Demos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C21BB6F2D19056B00126E0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C21BB712D19056B00126E0C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -247,6 +249,14 @@
 			path = NSStackView;
 			sourceTree = "<group>";
 		};
+		2C1B9F8F2D1F87AD0075FA27 /* NSPopover */ = {
+			isa = PBXGroup;
+			children = (
+				2C1B9F902D1F87C60075FA27 /* NSPopoverCtrl.swift */,
+			);
+			path = NSPopover;
+			sourceTree = "<group>";
+		};
 		2C21BB632D19056B00126E0C = {
 			isa = PBXGroup;
 			children = (
@@ -275,6 +285,7 @@
 				2CF0ABA52D1A430A0016892B /* AppHelper.swift */,
 				2CF0ABAB2D1A51E40016892B /* UI.swift */,
 				2C8021602D1B8BCD00A45F81 /* Router.swift */,
+				2C1B9F8F2D1F87AD0075FA27 /* NSPopover */,
 				2C1B9F8A2D1E53240075FA27 /* NSStackView */,
 				2C13ACCA2D1CF77100B158F4 /* NSSplitView */,
 				2C8021592D1B854700A45F81 /* NSTableView */,
@@ -560,6 +571,7 @@
 				2C21BBC62D190B9300126E0C /* ConstraintDescription.swift in Sources */,
 				2C1B9F852D1E35850075FA27 /* CSVTableViewCtrl.swift in Sources */,
 				2C21BBD32D190B9300126E0C /* UILayoutSupport+Extensions.swift in Sources */,
+				2C1B9F912D1F87C60075FA27 /* NSPopoverCtrl.swift in Sources */,
 				2C21BBE92D1910DB00126E0C /* NormalCtl.swift in Sources */,
 				2C21BBE62D190B9300126E0C /* ConstraintLayoutSupportDSL.swift in Sources */,
 				2C21BBCC2D190B9300126E0C /* ConstraintMakerFinalizable.swift in Sources */,
