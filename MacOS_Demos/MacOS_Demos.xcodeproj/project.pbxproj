@@ -93,6 +93,9 @@
 		2CF0ABA72D1A430A0016892B /* AppHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF0ABA52D1A430A0016892B /* AppHelper.swift */; };
 		2CF0ABAC2D1A51E50016892B /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF0ABAB2D1A51E40016892B /* UI.swift */; };
 		2CF0ABAD2D1A51E50016892B /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF0ABAB2D1A51E40016892B /* UI.swift */; };
+		2CF2B6802D27826000261E2E /* HttpCtrlDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF2B67E2D27826000261E2E /* HttpCtrlDemo.swift */; };
+		2CF2B6812D27826000261E2E /* HttpCtrlDemo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CF2B67F2D27826000261E2E /* HttpCtrlDemo.xib */; };
+		2CF2B6832D2782D900261E2E /* HttpTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF2B6822D2782D900261E2E /* HttpTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -187,6 +190,9 @@
 		2C8021602D1B8BCD00A45F81 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		2CF0ABA52D1A430A0016892B /* AppHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHelper.swift; sourceTree = "<group>"; };
 		2CF0ABAB2D1A51E40016892B /* UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI.swift; sourceTree = "<group>"; };
+		2CF2B67E2D27826000261E2E /* HttpCtrlDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpCtrlDemo.swift; sourceTree = "<group>"; };
+		2CF2B67F2D27826000261E2E /* HttpCtrlDemo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HttpCtrlDemo.xib; sourceTree = "<group>"; };
+		2CF2B6822D2782D900261E2E /* HttpTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpTool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -304,6 +310,7 @@
 				2CF0ABA52D1A430A0016892B /* AppHelper.swift */,
 				2CF0ABAB2D1A51E40016892B /* UI.swift */,
 				2C8021602D1B8BCD00A45F81 /* Router.swift */,
+				2CF2B67B2D27819D00261E2E /* Http */,
 				2C1B9F922D1F8C260075FA27 /* InteractWithC */,
 				2C1B9F8F2D1F87AD0075FA27 /* NSPopover */,
 				2C1B9F8A2D1E53240075FA27 /* NSStackView */,
@@ -404,6 +411,16 @@
 				2C80215D2D1B875300A45F81 /* TableViewCtl.xib */,
 			);
 			path = NSTableView;
+			sourceTree = "<group>";
+		};
+		2CF2B67B2D27819D00261E2E /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				2CF2B67E2D27826000261E2E /* HttpCtrlDemo.swift */,
+				2CF2B67F2D27826000261E2E /* HttpCtrlDemo.xib */,
+				2CF2B6822D2782D900261E2E /* HttpTool.swift */,
+			);
+			path = Http;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -516,6 +533,7 @@
 				2C1B9F942D1F8D5E0075FA27 /* math_operations in Resources */,
 				2C21BB772D19056E00126E0C /* Main.storyboard in Resources */,
 				2C1B9F882D1E46F30075FA27 /* PingPongTest_LF.csv in Resources */,
+				2CF2B6812D27826000261E2E /* HttpCtrlDemo.xib in Resources */,
 				2C1B9F9A2D1F8D970075FA27 /* InteractiveWithExCtrl.xib in Resources */,
 				2C13ACCE2D1CF79700B158F4 /* MySplitCtrl.xib in Resources */,
 			);
@@ -549,6 +567,7 @@
 				2C8021612D1B8BCD00A45F81 /* Router.swift in Sources */,
 				2C1B9F982D1F8D970075FA27 /* InteractiveWithExCtrl.swift in Sources */,
 				2C21BBC72D190B9300126E0C /* ConstraintMakerPriortizable.swift in Sources */,
+				2CF2B6802D27826000261E2E /* HttpCtrlDemo.swift in Sources */,
 				2C21BBC82D190B9300126E0C /* ConstraintAttributes.swift in Sources */,
 				2C1B9F722D1E32990075FA27 /* CSVWriter.swift in Sources */,
 				2C21BBDB2D190B9300126E0C /* ConstraintMaker.swift in Sources */,
@@ -569,6 +588,7 @@
 				2C21BBD22D190B9300126E0C /* ConstraintConfig.swift in Sources */,
 				2C21BB722D19056B00126E0C /* MainViewController.swift in Sources */,
 				2C21BBDD2D190B9300126E0C /* ConstraintLayoutGuideDSL.swift in Sources */,
+				2CF2B6832D2782D900261E2E /* HttpTool.swift in Sources */,
 				2C13ACCD2D1CF79700B158F4 /* MySplitCtrl.swift in Sources */,
 				2C21BBD52D190B9300126E0C /* ConstraintLayoutGuide.swift in Sources */,
 				2C1B9F7E2D1E32990075FA27 /* CSVReader.swift in Sources */,
@@ -789,6 +809,7 @@
 				DEVELOPMENT_TEAM = JFMJBAB8JB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MacOS-Demos-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -817,6 +838,7 @@
 				DEVELOPMENT_TEAM = JFMJBAB8JB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MacOS-Demos-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;

@@ -73,7 +73,7 @@ class CSVTableViewCtrl: NSViewController {
         tableView.selectionHighlightStyle = .none
         
         tableView.gridStyleMask = [.solidVerticalGridLineMask,
-//            .solidHorizontalGridLineMask,
+            .solidHorizontalGridLineMask,
 //            .dashedHorizontalGridLineMask
         ]
 
@@ -111,7 +111,7 @@ class CSVTableViewCtrl: NSViewController {
         
         // Add scroll view to the main view
         self.view.addSubview(scrollView)
-        scrollView.translatesAutoresizingMaskIntoConstraints = false // 启用 Auto Layout,否则在窗口最大化的时候,没法同步
+        scrollView.translatesAutoresizingMaskIntoConstraints = false
         // 设置滚动视图的约束
         NSLayoutConstraint.activate([
             scrollView.topAnchor.constraint(equalTo: self.view.topAnchor),

@@ -12,8 +12,6 @@ class MainViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
-        // Do any additional setup after loading the view.
     }
 
     override var representedObject: Any? {
@@ -80,6 +78,11 @@ class MainViewController: NSViewController {
             
         case 10:
             let vc = InteractiveWithExCtrl()
+            vc.title = "InteractiveWithExCtrl"
+            self.router.show(vc)
+            
+        case 11:
+            let vc = HttpCtrlDemo()
             vc.title = "InteractiveWithExCtrl"
             self.router.show(vc)
             

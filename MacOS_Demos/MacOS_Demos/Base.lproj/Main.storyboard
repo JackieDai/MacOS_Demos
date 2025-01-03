@@ -831,6 +831,17 @@
                                     <action selector="ctl_transfrom:" target="XfG-lQ-9wD" id="lqN-jI-Cea"/>
                                 </connections>
                             </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" tag="11" translatesAutoresizingMaskIntoConstraints="NO" id="scV-Wt-OWv">
+                                <rect key="frame" x="221" y="153" width="176" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="NetWork-HttpsRequest" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="zro-lC-XnV">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="ctl_transfrom:" target="XfG-lQ-9wD" id="VMC-z3-d7l"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                 </viewController>
