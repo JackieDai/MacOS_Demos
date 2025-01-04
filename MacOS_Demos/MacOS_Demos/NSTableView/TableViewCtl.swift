@@ -105,8 +105,6 @@ class TableViewCtl: NSViewController, NSTableViewDataSource, NSTableViewDelegate
             scrollView.leadingAnchor.constraint(equalTo: self.view.leadingAnchor),
             scrollView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor)
         ])
-        
-        
     }
     
     deinit {

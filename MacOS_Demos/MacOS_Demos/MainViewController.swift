@@ -86,6 +86,17 @@ class MainViewController: NSViewController {
             vc.title = "HttpCtrlDemo"
             self.router.show(vc)
             
+        case 12:
+            let vc = NSTableHeaderCtrl()
+            vc.title = "NSTableHeaderCtrl"
+            self.router.show(ctrl: vc)
+        case 13:
+            let vc = EmulateTableViewSectionCtrl()
+            vc.title = "EmulateTableViewSectionCtrl"
+            self.router.show(ctrl: vc)
+            
+            // TODO: @lingxiao NSTableHeaderCell Usages.
+            
         default:
             break
         }

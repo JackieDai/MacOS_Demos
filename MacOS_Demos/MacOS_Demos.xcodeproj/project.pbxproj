@@ -96,6 +96,9 @@
 		2CF2B6802D27826000261E2E /* HttpCtrlDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF2B67E2D27826000261E2E /* HttpCtrlDemo.swift */; };
 		2CF2B6812D27826000261E2E /* HttpCtrlDemo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CF2B67F2D27826000261E2E /* HttpCtrlDemo.xib */; };
 		2CF2B6832D2782D900261E2E /* HttpTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF2B6822D2782D900261E2E /* HttpTool.swift */; };
+		2CF2B6872D28B6F800261E2E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF2B6862D28B6F800261E2E /* BaseViewController.swift */; };
+		2CF2B6892D28B72C00261E2E /* NSTableHeaderCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF2B6882D28B72C00261E2E /* NSTableHeaderCtrl.swift */; };
+		2CF2B68C2D28BBFE00261E2E /* EmulateTableViewSectionCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF2B68B2D28BBFD00261E2E /* EmulateTableViewSectionCtrl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -193,6 +196,9 @@
 		2CF2B67E2D27826000261E2E /* HttpCtrlDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpCtrlDemo.swift; sourceTree = "<group>"; };
 		2CF2B67F2D27826000261E2E /* HttpCtrlDemo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HttpCtrlDemo.xib; sourceTree = "<group>"; };
 		2CF2B6822D2782D900261E2E /* HttpTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpTool.swift; sourceTree = "<group>"; };
+		2CF2B6862D28B6F800261E2E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		2CF2B6882D28B72C00261E2E /* NSTableHeaderCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSTableHeaderCtrl.swift; sourceTree = "<group>"; };
+		2CF2B68B2D28BBFD00261E2E /* EmulateTableViewSectionCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmulateTableViewSectionCtrl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -307,6 +313,7 @@
 			children = (
 				2C21BB6F2D19056B00126E0C /* AppDelegate.swift */,
 				2C21BB712D19056B00126E0C /* MainViewController.swift */,
+				2CF2B6862D28B6F800261E2E /* BaseViewController.swift */,
 				2CF0ABA52D1A430A0016892B /* AppHelper.swift */,
 				2CF0ABAB2D1A51E40016892B /* UI.swift */,
 				2C8021602D1B8BCD00A45F81 /* Router.swift */,
@@ -406,6 +413,8 @@
 		2C8021592D1B854700A45F81 /* NSTableView */ = {
 			isa = PBXGroup;
 			children = (
+				2CF2B68A2D28BBE100261E2E /* EmulateSection */,
+				2CF2B6852D28B6C900261E2E /* NSTableHeaderView */,
 				2C1B9F802D1E35230075FA27 /* CSV-Test */,
 				2C80215C2D1B875300A45F81 /* TableViewCtl.swift */,
 				2C80215D2D1B875300A45F81 /* TableViewCtl.xib */,
@@ -421,6 +430,22 @@
 				2CF2B6822D2782D900261E2E /* HttpTool.swift */,
 			);
 			path = Http;
+			sourceTree = "<group>";
+		};
+		2CF2B6852D28B6C900261E2E /* NSTableHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				2CF2B6882D28B72C00261E2E /* NSTableHeaderCtrl.swift */,
+			);
+			path = NSTableHeaderView;
+			sourceTree = "<group>";
+		};
+		2CF2B68A2D28BBE100261E2E /* EmulateSection */ = {
+			isa = PBXGroup;
+			children = (
+				2CF2B68B2D28BBFD00261E2E /* EmulateTableViewSectionCtrl.swift */,
+			);
+			path = EmulateSection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -594,11 +619,14 @@
 				2C1B9F7E2D1E32990075FA27 /* CSVReader.swift in Sources */,
 				2C21BBDC2D190B9300126E0C /* ConstraintRelation.swift in Sources */,
 				2C21BBD02D190B9300126E0C /* ConstraintInsetTarget.swift in Sources */,
+				2CF2B6892D28B72C00261E2E /* NSTableHeaderCtrl.swift in Sources */,
 				2C1B9F702D1E32990075FA27 /* CSVError.swift in Sources */,
 				2C21BBC52D190B9300126E0C /* LayoutConstraintItem.swift in Sources */,
 				2C1B9F8C2D1E533C0075FA27 /* StackViewCtrl.swift in Sources */,
+				2CF2B68C2D28BBFE00261E2E /* EmulateTableViewSectionCtrl.swift in Sources */,
 				2C21BBE52D190B9300126E0C /* ConstraintDirectionalInsets.swift in Sources */,
 				2C21BBE02D190B9300126E0C /* Constraint.swift in Sources */,
+				2CF2B6872D28B6F800261E2E /* BaseViewController.swift in Sources */,
 				2C21BBE22D190B9300126E0C /* ConstraintRelatableTarget.swift in Sources */,
 				2C1B9F762D1E32990075FA27 /* Legacy.swift in Sources */,
 				2C21BBD12D190B9300126E0C /* ConstraintDirectionalInsetTarget.swift in Sources */,
