@@ -83,7 +83,7 @@ class MainViewController: NSViewController {
             
         case 11:
             let vc = HttpCtrlDemo()
-            vc.title = "InteractiveWithExCtrl"
+            vc.title = "HttpCtrlDemo"
             self.router.show(vc)
             
         default:
